@@ -22,7 +22,7 @@
 }
 .contact-form-text{
     display: inline-flexbox;
-    width: 100%;
+    width: 900vh;
     box-sizing: border-box;
     margin: 16px 0;
     border: 0;
@@ -39,6 +39,14 @@
     opacity: 0.3;
     
 }
+/*Below is a css for social icons*/
+
+.middle{
+    position: inherit;
+    text-align: center;
+}
+
+
 
 
 
