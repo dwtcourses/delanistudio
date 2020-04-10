@@ -2,28 +2,43 @@
     margin: 0;
     padding: 0;
 }
+/*Below is the css for the Conctact section*/
+.contact-section{
+    background:url(../assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    padding: 40px 0;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-img{
-    width: 10px;
-    height: 90px;
 }
+.contact-section h3{
+    text-align: center;
+    color: #ddd;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: inline-flexbox;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    
+    padding: 20px 40px;
+    outline: none;
+    color: rgb(41, 45, 46);
+    opacity: 0.3;
+    
+}
+.contact-form-text-box{
+    height: 170px;
+    width: 100%;
+    opacity: 0.3;
+    
+}
+
+
 
