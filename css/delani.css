@@ -2,8 +2,88 @@
     margin: 0;
     padding: 0;
 }
+/*Below are styling for the main page*/
+.content{
+    background: url(../assets/backgrounds/h_img.jpg);
+}
+
+.content img{
+    color: black;
+    width: 40px;
+    height: 40px;
+    padding-left: 90px;
+}
+.title{
+    color: black;
+}
+.text{
+    color: black;
+}
+
+
+
+
+/*Below are styling for about us section*/
+.about-cont{
+    background-color:white;
+}
+.about-cont h2{
+    text-align: center;
+    size: 30px;
+    padding: 20px;
+}
+.about-cont-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    color: black;
+}
+
+
+
+/*Below are styling for services section*/
+.serv-cont{
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    height: 50vh;
+    
+}
+.serv-cont h2{
+    text-align: center;
+    color: black;
+    padding: 20px;
+    
+}
+.serv-cont-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    color: black;
+    
+}
+
+
+/* Below are styling of "what we do" section*/
+.what h4{
+    text-align: center;
+}
+.fab-icons{
+    text-align: center;
+    display: inline-flexbox;
+}
+
+.fab-icons h5{
+    margin-left: 10px;
+}
+
+.icon-services{
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+
+
+
 /*Below is the styling of my portfolio section*/
- tr th{
+tr th{
     text-align: center;
     font-size: 20px;
     width: 300px;
@@ -12,13 +92,7 @@
 .work-image{
     padding: 5px 5px;
     width: 200px;
-
-
-
-
-
-
-
+}
 
 /*Below is the css for the Conctact section*/
 .contact-section{
